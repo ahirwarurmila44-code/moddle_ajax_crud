@@ -1,0 +1,24 @@
+<table class="generaltable moodle-users-table">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Gender</th>
+            <th>Subjects</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#users}}
+        <tr>
+            <td>{{image}}</td>
+            <td>{{name}}</td>
+            <td>{{email}}</td>
+            <td>{{mobile}}</td>
+            <td>{{gender}}</td>
+            <td>{{subjects}}</td>
+        </tr>
+        {{/users}}
+    </tbody>
+</table>
